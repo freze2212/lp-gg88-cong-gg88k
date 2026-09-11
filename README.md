@@ -1,6 +1,7 @@
-# GG88 Landing
+# GG88 — Cổng chính thức GG88K (Dubai · SG · TR)
 
-Mẫu landing cổng GG88 (clone từ `gg88k.us`).
+Mẫu landing cổng GG88 (clone từ `gg88k.us`).  
+Repo GitHub: [`freze2212/lp-gg88-cong-gg88k`](https://github.com/freze2212/lp-gg88-cong-gg88k)
 
 ## Domain config
 
@@ -11,10 +12,8 @@ Sửa link đích trong `domains.json`:
 | `gg88k.us` | https://www.gg8817.com/?id=553797974 |
 | default | https://www.gg8817.com/?id=553797974 |
 
-## Cập nhật mẫu mới
+## Hub
 
-Mỗi mẫu landing là **một folder riêng** trong `c:\Landingpage\<ten-mau>`, git repo riêng trên GitHub (`freze2212/<ten-mau>`):
-
-1. Copy source tĩnh vào folder (`index.html`, `domains.json`, CSS/JS/ảnh).
-2. Map link theo domain trong `domains.json` (client-side, không dùng Wrangler / `_worker.js`).
-3. `git init` → commit → `gh repo create` → push `main`.
+- Template id: `lp_gg88_cong_gg88k`
+- Cloudflare Pages: `lp-gg88-cong-gg88k.pages.dev`
+- Local path: `C:\Landingpages\GG88\lp-gg88-cong-gg88k`
