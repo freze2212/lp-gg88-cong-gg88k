@@ -1,5 +1,5 @@
 let DOMAIN_CONFIG = {
-    defaultLink: "https://www.gg8817.com/?id=553797974",
+    defaultLink: "#",
     domains: {
         "gg88k.us": "https://www.gg8817.com/?id=553797974",
         "localhost": "https://www.gg8817.com/?id=553797974",
@@ -27,7 +27,7 @@ function getTargetUrl(config) {
         }
     }
 
-    return config.defaultLink || "https://www.gg8817.com/?id=553797974";
+    return config.defaultLink || "#";
 }
 
 function applyTargetUrl(url) {
